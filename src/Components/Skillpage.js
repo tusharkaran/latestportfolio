@@ -13,13 +13,13 @@ function Skillpage() {
 				<div class="column-subpage">
 					<div class="flex-item dev-wrapper">
 						<div class="flex-item dev-wrapper">
-							<h2 class="skills-heading"> <span class="sprite dev"></span> <span>Development</span> </h2> <ul>  <li class="dev-item">C++</li> <li class="dev-item">JavaScript</li> <li class="dev-item">React</li> <li class="dev-item">VUEJS</li><li class="dev-item">Handlebar</li>  <li class="dev-item">jQuery</li>   </ul> </div>
+							<h2 class="skills-heading"> <span class="sprite dev"></span> <span>Development</span> </h2> <ul>  <li class="dev-item">C++</li> <li class="dev-item">JavaScript</li> <li class="dev-item">React</li> <li class="dev-item">VUEJS</li><li class="dev-item">Handlebar</li>  <li class="dev-item">jQuery</li>  <li class="dev-item">Sightly</li>   </ul> </div>
 					</div>
 				</div>
 				
 				  <div class="column first-division data-skill">
 				  <span class="skills-heading">TOOLS AND SOFTWARE</span>
-           			<ul class="skills-list"><li>Gulp</li><li>Google Analytics</li><li>Postman</li><li>Jira</li><li>Confluence</li><li>Adobe Expericence Manager</li></ul>
+           			<ul class="skills-list"><li>Gulp</li><li>Google Analytics</li><li>Postman</li><li>Jira</li><li>Confluence</li><li>Adobe Expericence Manager</li><li>Magento</li></ul>
     			</div>
 			</motion.div>
 			<motion.div class="grid-container" initial={{opacity:0 }}

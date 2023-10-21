@@ -113,10 +113,9 @@ function HeroSection() {
           <span>human-centered </span>
           <span>products </span>
           <span >at </span>    
-            
-          <span class="data-product" >Tata </span>
-          <span class="data-product" >Consultancy </span>
-          <span class="data-product" >Services </span>
+          <span >Tata </span>
+          <span  >Consultancy </span>
+          <span >Services </span>
         
         </h1>
         <a class="button-rotating" href="#contact-data">

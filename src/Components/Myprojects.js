@@ -13,19 +13,76 @@ function Myprojects() {
   const location = useLocation();
 
   useEffect(()=> {
-    if (location?.state?.key) {  
+   
         if (location?.state?.key) {
           refs.current[location?.state?.key].scrollIntoView({block: "center"});
         }
         else{
         window.scrollTo({top:0,left:0, behavior: "smooth"});
         }
-      }
+      
 }, [location,])
 
   return (
+    
 
     <div class="myprojects-data">
+          <motion.div class="project-container"  initial={{opacity:0 }}
+            whileInView={{opacity:1 }}
+            viewport={{once:true , amount:0.3}}
+            transition={{duration:0.8 , delay: 0.3}}  id="0" ref={(element) => {refs.current[0] = element}} >
+        <div class="project">
+          <div class="project-content ">
+            <div class="project-label ">AEM</div>
+            <h4 class="project-title ">IHCL Hotel Brands Website</h4>
+            <div class="project-details">
+            <p> 
+            <li>Worked on multiple brands like tajhotels, vivanta, seleqtion,ama and qmin</li>
+            <li>Worked with sling model, JCR properties, Sightly,templates, structure.</li>
+                <li>Worked on Book a Stay functionality.</li>
+               <li>Redesigning IHCL Website as per client requirement.</li>
+               <li>Increased multiple page performance by minification , lazy loading.</li>
+               </p>
+              <ul >
+                <li>JavaScript, jquery</li>
+                <li>AEM</li>
+                <li>Slightly,Java</li>
+              </ul>
+            </div>
+          </div>
+          <div class="project-img ">
+            <img src="/images/Ihcltata.JPG" alt="" />
+          </div>
+        </div>
+      </motion.div>
+
+        <motion.div class="project-container"  initial={{opacity:0 }}
+            whileInView={{opacity:1 }}
+            viewport={{once:true , amount:0.3}}
+            transition={{duration:0.8 , delay: 0.3}}  id="2" ref={(element) => {refs.current[2] = element}} >
+        <div class="project">
+          <div class="project-content ">
+            <div class="project-label ">reactJs</div>
+            <h4 class="project-title ">Personal Portfolio</h4>
+            <div class="project-details">
+            <p> 
+                <li>Implement on reactjs and firebase.</li>
+               <li>Created multiple pages for portfolio with multiple extensions.</li>
+               <li>Integratred firebase to fetch data from firebase cloudstore.</li>
+               </p>
+              <ul >
+                <li>reactjs</li>
+                <li>Firebase</li>
+                <li>Motion</li>
+              </ul>
+            </div>
+          </div>
+          <div class="project-img ">
+            <img src="/images/portfolio.JPG" alt="" />
+          </div>
+        </div>
+      </motion.div>
+
             <motion.div class="project-container"   initial={{opacity:0 }}
             whileInView={{opacity:1 }}
             viewport={{once:true , amount:0.3}}
@@ -51,38 +108,11 @@ function Myprojects() {
             </div>
           </div>
           <div class="project-img reverse-img">
-            <img src="/images/manciniproject.jpg" alt="" />
+            <img src="/images/manciniproject.JPG" alt="" />
           </div>
         </div>
       </motion.div>
-      <motion.div class="project-container"  initial={{opacity:0 }}
-            whileInView={{opacity:1 }}
-            viewport={{once:true , amount:0.3}}
-            transition={{duration:0.8 , delay: 0.3}}  id="2" ref={(element) => {refs.current[2] = element}} >
-        <div class="project">
-          <div class="project-content reverse-content">
-            <div class="project-label reverse-label">React</div>
-            <h4 class="project-title reverse-title">Personal Portfolio</h4>
-            <div class="project-details">
-            <p> 
-                <li>Implement on reactjs and firebase.</li>
-                <li>verified the pages and components are Americans with
-                  Disabilities Act Standards for Accessible Design(ADA) compliant.</li>
-                <li> Worked with the real-time Frog API for sales order tracking and
-                  history.</li></p>
-              <ul class="reverse-item">
-                <li>React</li>
-                <li>Firebase</li>
-                <li>Motion</li>
-              </ul>
-            </div>
-          </div>
-          <div class="project-img reverse-img">
-            <img src="/images/8085.jpg" alt="" />
-          </div>
-        </div>
-      </motion.div>
-
+    
 
       <motion.div class="project-container"   initial={{opacity:0 }}
             whileInView={{opacity:1 }}
@@ -111,7 +141,7 @@ function Myprojects() {
             </div>
           </div>
           <div class="project-img">
-            <img src="/images/aicd.jpg" alt="" />
+            <img src="/images/aicd.JPG" alt="" />
           </div>
 
         </div>
@@ -138,7 +168,7 @@ function Myprojects() {
             </div>
           </div>
           <div class="project-img reverse-img">
-            <img src="images/img-9.jpg" alt="" />
+            <img src="images/pollution.JPG" alt="" />
           </div>
         </div>
       </motion.div>
@@ -162,7 +192,7 @@ function Myprojects() {
             </div>
           </div>
           <div class="project-img ">
-            <img src="images/img-9.jpg" alt="" />
+            <img src="images/drowsiness.JPG" alt="" />
           </div>
         </div>
       </motion.div>
@@ -187,7 +217,7 @@ function Myprojects() {
             </div>
           </div>
           <div class="project-img reverse-img">
-            <img src="images/8085.jpg" alt="" />
+            <img src="images/8085.JPG" alt="" />
           </div>
         </div>
       </motion.div>

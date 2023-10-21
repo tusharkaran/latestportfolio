@@ -80,6 +80,9 @@ function Contact() {
           setcurrentstep('name');
           setdataname('') ;
           setdataemail('') ;
+          setdisablesubmit(true);
+          setdisablenext(true);
+
 
       }, (error) => {
           console.log(error.text);

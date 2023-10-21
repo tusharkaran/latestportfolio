@@ -38,7 +38,7 @@
     border-radius: 5px;
     border: 1px solid #64ffda;
     color :#64ffda; 
-    transition:1s;
+    transition:0.5s;
     transition-timing-function: ease-in-out;
 
 }
